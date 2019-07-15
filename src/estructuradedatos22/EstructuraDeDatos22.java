@@ -38,7 +38,6 @@ public class EstructuraDeDatos22 {
        while(!minHeap.isEmpty()){
         D.addHeap(minHeap.remove());
        }
-       
        D.Reducir(D.size2);
         System.out.print("Arreglo ordenado {");
        print(minHeap.Dyn.d2);
